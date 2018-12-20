@@ -1,0 +1,99 @@
+@import '_vars';
+
+body, header, p {
+    margin:auto 0px;
+    background-color: black;
+}
+
+.hidden{
+    display: none;
+}
+
+#topNav{
+    background-color: skyblue;
+    margin-top: 95px;
+}
+
+#topNav a {
+    float: left;
+    color: #f2f2f2;
+    font-size: 18px;
+}
+
+#topNav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+.promoText{
+    background-image: url(../images/business.png);
+    text-align: center;
+    color: white;
+}
+
+#about{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    background: radial-gradient(circle, red, yellow);
+    width:300px;
+    height: 60px;
+}
+
+#about :hover{
+    background: radial-gradient(circle, blue, green);
+    width:300px;
+    height: 60px;
+}
+
+#Me{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#myWork{
+    color: white;
+    text-align: center;
+
+}
+
+#myWork{
+    margin-top: 30px;
+
+}
+
+#promoImg{
+    margin-bottom: 60px;
+}
+
+#promoVideo{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contact{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#footerNav{
+    background-color: skyblue;
+    margin-top: 95px;
+}
+
+#footerNav a {
+    float: left;
+    color: #f2f2f2;
+    font-size: 18px;
+}
+
+#footerNav a:hover {
+    background-color: #ddd;
+    color: black;
+  } 
